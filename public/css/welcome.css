@@ -1,0 +1,136 @@
+html{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  font-family: 'Baloo', cursive;
+}
+
+#bg-video {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+.jumbovidtext {
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+
+.jumbotron {
+  background: transparent;
+  margin: 18vh 0;
+  overflow-y: hidden;
+}
+@media screen and (max-width: 480px) {
+    .jumbotron {
+        margin: 8vh 0;
+    }
+}
+
+main {
+  background: #fff;
+  padding: 2em;
+}
+
+footer {
+  background: #000;
+
+  color: white;
+  padding: 2em;
+}
+
+#collin{
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #7e7e7e;
+}
+
+#yarno{
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px #7e7e7e;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.spacing-top-h3{
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 1921px) {
+    video {
+        margin-top: -250px;
+    }
+}
+
+
+/* Preloader */
+.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#fff; /* change if the mask should have another color then white */
+	z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*MORPH*/
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.pic {
+
+
+}

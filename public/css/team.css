@@ -1,0 +1,71 @@
+html{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  font-family: 'Baloo', cursive;
+}
+
+.collin-border{
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px #7e7e7e;
+}
+
+.yarno-border{
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px #7e7e7e;
+}
+
+.collin-border p{
+  padding-top: 5px;
+}
+
+.yarno-border p{
+  padding-top: 5px;
+}
+
+#yarno {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#collin {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+footer {
+  margin-top: 20px;
+  background: #000;
+  color: white;
+  padding: 2em;
+}
+
+.spacing-top-h3{
+  padding-top: 5px;
+}
+
+.spacing-bottom-btn{
+  padding-bottom: 5px;
+}
